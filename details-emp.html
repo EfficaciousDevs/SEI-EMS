@@ -1,0 +1,35 @@
+<h1>SEI Employee Details</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Emp.Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Email</th>
+      <th scope="col">Operations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of collection">
+      <th>{{ item.id }}</th>
+      <th>{{ item.name }}</th>
+      <th>{{ item.address }}</th>
+      <th>{{ item.email }}</th>
+      <th>
+        <button class="btn btn-danger" (click)="deleteResto(item.id)">
+          Delete
+        </button>
+
+        &nbsp;
+
+        <button routerLink="/update/{{ item.id }}" class="btn btn-success">
+          Update
+        </button>
+
+        <!-- <a routerLink="/update/{{ item.id }}">
+          <i class="fa fa-edit" style="font-size:20px;color:green;"> Update</i>
+        </a> -->
+      </th>
+    </tr>
+  </tbody>
+</table>
