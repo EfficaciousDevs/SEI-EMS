@@ -1,0 +1,23 @@
+<form class="container">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input
+      type="email"
+      class="form-control"
+      name="email"
+      (input)="getEmail($event)"
+    />
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input
+      type="password"
+      class="form-control"
+      name="password"
+      (input)="getPass($event)"
+    />
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="logIn()">
+    Log In
+  </button>
+</form>
