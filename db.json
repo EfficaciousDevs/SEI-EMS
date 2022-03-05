@@ -51,8 +51,8 @@
       "id": 1
     },
     {
-      "name": "anil",
-      "email": "anil@test.com",
+      "name": "userTest",
+      "email": "user@test.com",
       "password": "12345",
       "id": 2
     }
