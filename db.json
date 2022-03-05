@@ -1,10 +1,28 @@
 {
   "employeedb": [
     {
-      "name": "KFC restaurant",
+      "name": "Mahesh Kumar",
       "email": "kfc@test.com",
-      "address": "Noida, sector 120",
+      "address": "Chennai, Tamil Nadu",
       "id": 1
+    },
+    {
+      "name": "Kiruthiga Priya",
+      "email": "sunway@test.com",
+      "address": "Kochi,Kerala",
+      "id": 6
+    },
+     {
+      "name": "R.Rajapriya",
+      "address": "Hyderabad, Andhra Pradesh",
+      "email": "halidram@test.com",
+      "id": 5
+    },
+     {
+      "name": "Garish Samuel",
+      "address": "Cehnnai, Tamil Nadu",
+      "email": "dominos@test.com",
+      "id": 4
     },
     {
       "name": "Akshay Kumar",
@@ -13,33 +31,15 @@
       "id": 2
     },
     {
-      "name": "burgent king restaurant",
+      "name": "Neeladri Parikha",
       "email": "bKing@test.com",
-      "address": "Dwarka sector 120",
+      "address": "Kolkata, West Bengal",
       "id": 3
     },
     {
-      "name": "dominos king restaurant",
-      "address": "gurgaon sector 20",
-      "email": "dominos@test.com",
-      "id": 4
-    },
-    {
-      "name": "halidram king restaurant",
-      "address": "draka sector 20",
-      "email": "halidram@test.com",
-      "id": 5
-    },
-    {
-      "name": "subway",
-      "email": "sunway@test.com",
-      "address": "delhi north",
-      "id": 6
-    },
-    {
-      "name": "natural food",
+      "name": "Bhanu Chandra",
       "email": "natural@test.com",
-      "address": "greater noida ",
+      "address": "Coimbatore, Tamil Nadu",
       "id": 7
     }
   ],
