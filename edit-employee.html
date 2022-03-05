@@ -1,10 +1,10 @@
-<h1>Add new Employee</h1>
+<h1>Edit Restaurant</h1>
 <div
   *ngIf="alert"
   class="alert alert-success alert-dismissible fade show"
   role="alert"
 >
-  <strong>Success !</strong> Your data has been entered successfully.
+  <strong>Success !</strong> Your data has been Updated successfully.
   <button
     (click)="closeAlert()"
     type="button"
@@ -15,7 +15,7 @@
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
-<form [formGroup]="addResto" (ngSubmit)="collectResto()">
+<form [formGroup]="editResto" (ngSubmit)="collection()">
   <div class="form-group">
     <label>Name</label>
     <input
@@ -43,11 +43,5 @@
       formControlName="address"
     />
   </div>
-  <br />
-  <button type="submit" class="btn btn-primary" [disabled]="addResto.invalid">
-    Submit</button
-  >&nbsp;<button type="reset" class="btn btn-warning">Reset</button>
+  <button type="submit" class="btn btn-primary">Update</button>
 </form>
-<div *ngIf="alert">
-  {{ addResto.value.name }}
-</div>
