@@ -2,44 +2,51 @@
   "employeedb": [
     {
       "name": "Mahesh Kumar",
-      "email": "kfc@test.com",
+      "email": "mahesh@outlook.com",
+      "designation": "Sr.Project Manager",
       "address": "Chennai, Tamil Nadu",
       "id": 1
     },
     {
       "name": "Kiruthiga Priya",
-      "email": "sunway@test.com",
+      "email": "kiruthiga@outlook.com",
+      "designation": "Project Manager",
       "address": "Kochi,Kerala",
       "id": 6
     },
      {
       "name": "R.Rajapriya",
       "address": "Hyderabad, Andhra Pradesh",
-      "email": "halidram@test.com",
+       "designation": "Home Manager",
+      "email": "rajapriya@outlook.com",
       "id": 5
     },
      {
       "name": "Garish Samuel",
-      "address": "Cehnnai, Tamil Nadu",
-      "email": "dominos@test.com",
+      "address": "Chennai, Tamil Nadu",
+       "designation": "Sr.Software Engineer",
+      "email": "garish@outlook.com",
       "id": 4
     },
     {
       "name": "Akshay Kumar",
-      "email": "akshaydummy@outlook.com",
+      "email": "akshay@outlook.com",
+      "designation": "Prgrammer Analyst Trainee",
       "address": "Patna,Bihar",
       "id": 2
     },
     {
       "name": "Neeladri Parikha",
-      "email": "bKing@test.com",
+      "email": "neeladri@outlook.com",
+      "designation": "Prgrammer Analyst Trainee",
       "address": "Kolkata, West Bengal",
       "id": 3
     },
     {
-      "name": "Bhanu Chandra",
-      "email": "natural@test.com",
-      "address": "Coimbatore, Tamil Nadu",
+      "name": "Aman Agarwaal",
+      "email": "aman@outlook.com",
+      "designation": "Prgrammer Analyst",
+      "address": "Bhubneshwar, Orissa",
       "id": 7
     }
   ],
