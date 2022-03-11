@@ -21,6 +21,20 @@
       "email": "rajapriya@outlook.com",
       "id": 5
     },
+    {
+      "name": "SN Karthika",
+      "address": "Chennai, Tamil Nadu",
+       "designation": "Sr.Software Engineer",
+      "email": "karthika@outlook.com",
+      "id": 9
+    },
+    {
+      "name": "Vaishnavi Raj",
+      "address": "Vizag, Tamil Nadu",
+       "designation": "Sr.Software Engineer",
+      "email": "vaishnavi@outlook.com",
+      "id": 8
+    },
      {
       "name": "Garish Samuel",
       "address": "Chennai, Tamil Nadu",
